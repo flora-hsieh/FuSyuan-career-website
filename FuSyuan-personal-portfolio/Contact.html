@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact| Flora's Career</title>
+    <link rel="stylesheet" href="Contact.css">
+    <script src="Contact.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div id="nav_left">Flora's <br>Career <br>Website</div>
+        <div id="nav_right">
+        <a href="Home.html" onmouseover="btnChangeColor(this)" onmouseout="btnChangeBack(this)" >Home</a> <a href="About.html" onmouseover="btnChangeColor(this)" onmouseout="btnChangeBack(this)">About</a> <a href="Portfolio.html" onmouseover="btnChangeColor(this)" onmouseout="btnChangeBack(this)">Portfolio</a> 
+        <a href="Contact.html" style="background-color:#C9C8FB ;">Contact</a> 
+        <img src="https://static.wixstatic.com/media/11062b_7cf73902d06c4f3685c379a21c6c8285~mv2.png/v1/fill/w_54,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_7cf73902d06c4f3685c379a21c6c8285~mv2.png" alt="LinkedIn" style="width:30px;height:30px;">
+        <img src="https://static.wixstatic.com/media/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png/v1/fill/w_54,h_54,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_55e4be1e75564866b6c28290f9a9d271~mv2.png" alt="instagram" style="width:30px;height:30px;">
+        </div>
+    </nav>
+    <main>
+        <div id="myContact">
+            <div id="header">Contact</div>
+            <br>
+            <p>Connect with Flora</p>
+            <br>
+            <p>Email: flora310649@gmail.com </p>
+            <br>
+            <p>Phone: (778)-321-2615</p>
+            
+        </div>
+        <div id="contactImage"><img src="image/Contact.JPG" alt="contact_photo" style="width: 395px;
+            height: 623px; object-fit: cover;"></div>
+        <div id="visitorContact">
+            <form>
+                <label for="firstName" id="firstlbl">First Name</label> 
+                <label for="lastName" id="lastlbl">Last Name</label>
+                <input type="text" id="firstName">
+                <input type="text" id="lastName">
+                <label for="email" id="emaillbl">Email*</label>
+                <label for="phone" id="phonelbl">Phone</label>
+                <input type="email" id="email">
+                <input type="text" id="phone">
+                <label for="message" id="message">Leave me a message...</label>
+                <textarea name="messageBox" id="msg" cols="30" rows="8"></textarea>
+                <br>
+                <input type="submit" value="Send Message" onmouseover="onSubmit(this)" onmouseout="outSubmit(this)">
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        © 2023 Flora's Career Website. All rights reserved.
+    </footer>
+    
+</body>
+</html>

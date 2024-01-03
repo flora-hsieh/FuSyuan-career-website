@@ -1,0 +1,154 @@
+body {
+    background-color: #F9D9CA;
+}
+
+#nav_left {
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#nav_right {
+    padding-left: 900px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #FFF86B;
+    margin: 4px;
+    border: 0 solid #757575;
+    border-radius: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+main {
+    display: flex;
+    margin-top: 150px;
+}
+
+
+
+#myContact {
+    flex-grow: 1;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+#header {
+    font-size: 50px;
+}
+
+p {
+    text-indent: 0.5em;
+}
+
+#contactImage {
+    flex: 1;
+}
+
+#visitorContact {
+    flex-grow: 2;
+}
+
+form {
+    padding-left: 100px;
+    padding-top: 100px;
+    line-height: 80px;
+    
+}
+
+#firstlbl {
+    grid-area: one;
+
+}
+
+#lastlbl {
+    grid-area: two;
+}
+
+#firstName {
+    grid-area: three;
+    margin-right: 100px;
+}
+
+
+
+#lastName {
+    grid-area: four;
+    margin-right: 100px;
+}
+
+#emaillbl {
+    grid-area: five;
+
+}
+
+#phonelbl {
+    grid-area: six;
+}
+
+#email {
+    grid-area: seven;
+    margin-right: 100px;
+}
+
+#phone {
+    grid-area: eight;
+    margin-right: 100px;
+}
+
+#message {
+    grid-area: nine;
+}
+
+#msg {
+    grid-area: ten;
+    margin-right: 100px;
+}
+
+input[type=submit] {
+    border: 1px solid black;
+    background-color: transparent;
+    position: relative;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 15px;
+}
+
+form {
+    display: grid;
+    grid-template-areas: "one two"
+                     "three four"
+                     "five six"
+                     "seven eight"
+                     "nine nine"
+                     "ten ten"
+                     ;
+    padding-right: 100px;
+}
+
+input[type=text] , input[type=email], textarea {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+  }
+
+footer {
+    text-indent: 200px;
+    padding-top: 450px;
+}
+
+ /* color
+pink: #F9D9CA
+purple: #C9C8FB;  
+yellow: #FFF86B
+*/

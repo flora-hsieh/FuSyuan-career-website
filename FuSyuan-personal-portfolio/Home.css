@@ -1,0 +1,58 @@
+body {
+    background-color: #F9D9CA;
+    background-image:url(image/Landing_photo.webp) ;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+}
+
+
+
+#nav_left {
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#nav_right {
+    padding-left: 900px;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #FFF86B;
+    margin: 4px;
+    border: 0 solid #757575;
+    border-radius: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+header {
+    padding-top: 300px;
+    padding-left: 220px;
+    font-size: 30px;
+    color:rgb(18, 17, 17);
+}
+
+#header_1stLine {
+    font-size: 60px;
+}
+
+#header_2ndLine {
+
+    letter-spacing: 0.5em;
+}
+
+footer {
+    text-indent: 200px;
+    padding-top: 450px;
+}
